@@ -30,7 +30,7 @@ public class DecodeDriver {
 		
 	}
 	
-	public static String getCode(String file) throws FileNotFoundException { //not really sure about this throws thing but eclipse did it for me so
+	public static String getCode(String file) throws FileNotFoundException { 
 			//reads in each encoded file, returning a string (Maybe could be in decode?)
 			Scanner reader = new Scanner(new FileInputStream(file));
 			 String code = reader.useDelimiter("\\A").next(); //found this on stackoverflow
@@ -43,20 +43,4 @@ public class DecodeDriver {
 		
 	}
 
-/*  1. Preamble to the declaration of independence
- * 
- * 2. Alice's adventures in wonderland
- * 
- * 3. Sherlock Holmes
- * 
- * 4. Adventures of Huckleberry Finn
- * 
- * 5. Pride and Prejudice??
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- */
+
