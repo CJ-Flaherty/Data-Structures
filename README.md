@@ -1,5 +1,5 @@
 # Data-Structures
-Code written for CS201- Data Structures at Middlebury College
+Code written for a data structures class
 
 "Decode" and "DecodeDriver" were written to parse a substition cipher using frequency analysis.
 
